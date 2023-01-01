@@ -3,11 +3,49 @@
     Author     : noah.rousseau
 */
 
-#amelia {
-    margin-right: 10px;
+#noah {
+    margin-right: 20px;
     float: left;
+    width: 150px;
 }
 
 .jumbotron {    
     padding-bottom: 32px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+    background-color: #00697D !important;
+    border-color: #00697D;
+}
+
+h1 {
+    background-color: #dcdcdc;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: rgba(230, 230, 230, .5);
+    border: 10px solid rgba(220, 220, 220, .5);
+    margin-left: 170px;
+}
+
+.col-lg-4 {
+    background-color: rgba(230, 230, 230, .5);
+    border: 10px solid #ffffff;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.2em !important;
+}
+
+footer .col-lg-4:hover {
+    -webkit-transform:scale(1.10);
+    z-index:99;
+    border: none;
 }

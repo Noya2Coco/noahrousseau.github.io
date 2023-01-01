@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="Mon portfolio personnel" content="Portfolio de Noah Rousseau - BTS SIO SLAM">
         <meta name="author" content="Amélia Pilou">
-        <link rel="icon" href="./images/favicon.ico">
+        <link rel="icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="../css/styles.css" rel="stylesheet" type="text/css">
+        <link href="../css/projetportfolio.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Portfolio de Noah Rousseau (BTS SIO 2022)</title>
     </head>
@@ -31,16 +32,16 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
                     <span class="sr-only">Navigation raccourcie</span>☰
                 </button>
-                <a class="navbar-brand" href="index.html">Mon portfolio</a>
+                <a class="navbar-brand" href="../index.html">Mon portfolio</a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
@@ -48,47 +49,82 @@
                             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">
                                 <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu" role="menu">
+                            <ul class="active dropdown-menu" role="menu">
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/projetspy.html">Petits projets</a>
+                                    <a role="menuitem" href="projetspy.html">Petits projets</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/projetportfolio.html">Portfolio</a>
+                                    <a role="menuitem" href="#">Portfolio</a>
                                 </li>
 
                                 <li role="presentation" class="dropdown-divider"></li>
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En entreprise</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/stage1.html">Projet de 1ère année</a>
+                                    <a role="menuitem" href="stage1.html">Projet de 1ère année</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/stage2.html">Projet de 2ème année</a>
+                                    <a role="menuitem" href="stage2.html">Projet de 2ème année</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
-                            <a href="pages/contact.html" class="nav-link"><span class="fa fa-envelope"></span>
+                            <a href="contact.html" class="nav-link"><span class="fa fa-envelope"></span>
                                 Me contacter
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>        
+
         </nav>
 
         <div class="jumbotron">
-            <div class="container">
-                <h1 class="text-center">Portfolio - Noah Rousseau</h1>
-                <img  id="noah" class="gauche" src="images/Noah_PP.jpg" alt="Photo de Noah Rousseau, étudiant en BTS SIO">
-                <h4>Je m'appelle Noah Rousseau, j'ai 18 ans et ce site à pour but de
-                    me présenter en tant qu'étudiant et candidat
-                    à l'obtention du BTS SIO (Services Informatiques aux Organisations)
-                    et en tant que future développeur informatique spécialisé dans la création de jeux vidéo.</h4>
-                <p><a class="btn btn-primary btn-lg" href="pages/cv.html" role="button">En savoir plus »</a></p>
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Programmation sous Python</h1>
+                    <p class="lead text-muted">Ces réalisations personnelles ont prit vie
+                        naturellement avec l'apprentissage du langage simple Python durant
+                        mon année de Première et Terminale au lycée. 
+                        J'apprécie grandement ce langage parce qu'il est facile de compréhension
+                        , il profite de nombreuses logiques permettant ça simplification et sa clartée.
+                    </p>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img class="card-img-top" src="../images/portfolio1.png" alt="Projet d'un Portfolio">
+                                <div class="card-body">
+                                    <p class="card-text">Exemple 1/3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img class="card-img-top" src="../images/portfolio2.png"
+                                     alt="Projet d'un Portfolio">
+                                <div class="card-body">
+                                    <p class="card-text">Exemple 2/3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img class="card-img-top" src="../images/portfolio3.png" alt="Projet d'un Portfolio">
+                                <div class="card-body">
+                                    <p class="card-text">Exemple 3/3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div> <!-- Emplacement pour le contenu principal de la page -->
 
@@ -103,7 +139,6 @@
                             mon organisation, ainsi que découvrir des nouvelles facettes pour pouvoir ainsi à la suite de
                             ces 2 années, continuer avec un Bac+3 et potentiellement un Bac+5 pour pouvoir, peut-être un jour,
                             devenir un développeur de jeux vidéo de renommée !
-                            <br><br><br><br>
                         </p>
                         <p><a class="btn btn-secondary " href="pages/cv.html" 
                               role="button">En savoir plus »</a>
@@ -120,7 +155,7 @@
                             générale et 9% de Maths, je savais que cette formation allait me mettre le
                             pied à l'étrier pour poursuivre ensuite dans cette voie et devenir
                             développeur !
-                            <br><br>
+                            <br><br><br><br>
                         </p>
                         <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_tec
                               hnicien_supérieur_-_Services_informatiques_aux_organisations"
@@ -139,6 +174,7 @@
                             de bases de données sous PostgreSQL et MySQL, réalisation de
                             composants logiciels avec Symfony, gestion de projet, méthodes agiles...
                             J'étais sûre que ça serait fait pour moi !
+                            <br><br>
                         </p>
                         <p><a class="btn btn-secondary" href="https://www.onisep.fr/Ressources/Univers-Fo
                               rmation/Formations/Post-bac/bts-services-informatiques-aux-organisations-op
